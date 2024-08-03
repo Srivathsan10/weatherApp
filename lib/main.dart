@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: "MyWeather",
       home: const WeatherView(),
       theme: ThemeData(
-          scaffoldBackgroundColor: Color.fromARGB(255, 206, 219, 225)),
+          scaffoldBackgroundColor: const Color.fromARGB(255, 206, 219, 225)),
     );
   }
 }
